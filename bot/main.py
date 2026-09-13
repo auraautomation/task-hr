@@ -560,6 +560,21 @@ async def main():
     log.info(f"Admin foydalanuvchilar: {ADMIN_USERS}")
     log.info(f"HR foydalanuvchilar: {HR_USERS}")
     log.info(f"Ro'yxatdan o'tish: {'ochiq' if REGISTRATION_OPEN else 'yopiq'}")
+
+    # Render Web Service uchun port va healthcheck tinglovchisi
+    try:
+        from aiohttp import web
+        app = web.Application()
+        app.router.add_get("/", lambda r: web.Response(text="HR Agent Bot is running!"))
+        runner = web.AppRunner(app)
+        await runner.setup()
+        port = int(os.getenv("PORT", "8000"))
+        site = web.TCPSite(runner, "0.0.0.0", port)
+        await site.start()
+        log.info(f"Render healthcheck veb-serveri {port}-portda ishga tushdi")
+    except Exception as ex:
+        log.warning(f"Veb-serverni ishga tushirib bo'lmadi: {ex}")
+
     await dp.start_polling(bot)
 
 
