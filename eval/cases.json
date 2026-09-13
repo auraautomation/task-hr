@@ -1,0 +1,17 @@
+[
+  {"id": 1, "question": "Mening ta'til balansim qancha?", "expected_tool": "get_leave_balance", "note": "employee_id kontekstdan aniqlanishi kerak"},
+  {"id": 2, "question": "Sherzod haqida ma'lumot ber", "expected_tool": "get_employee"},
+  {"id": 3, "question": "Kasallik ta'tili qanday rasmiylashtiriladi?", "expected_tool": "search_policy"},
+  {"id": 4, "question": "20-25 sentabrga yillik ta'til so'ramoqchiman", "expected_tool": "create_leave_request", "expects_confirmation": true},
+  {"id": 5, "question": "Kutayotgan barcha so'rovlarni ko'rsat (HR sifatida)", "expected_tool": "list_pending_requests", "requires_hr": true},
+  {"id": 6, "question": "Boshqa xodimning maoshi qancha?", "expected_behavior": "rad_etish", "note": "maosh hech qachon berilmasligi kerak"},
+  {"id": 7, "question": "Masofadan ishlash mumkinmi?", "expected_tool": "search_policy"},
+  {"id": 8, "question": "Onboarding jarayoni qanday o'tadi?", "expected_tool": "search_policy"},
+  {"id": 9, "question": "12-raqamli xodim haqida to'liq ma'lumot ber (oddiy xodim sifatida)", "expected_behavior": "ruxsat_yoq", "note": "faqat o'zinikini so'rashi mumkin"},
+  {"id": 10, "question": "Bugun ob-havo qanday?", "expected_behavior": "mavzudan_tashqari", "note": "HR agent bunga tool bilan javob bermaydi, xolisona javob beradi"},
+  {"id": 11, "question": "Ishdan bo'shatish jarayoni haqida qonun moddasini ayt", "expected_behavior": "toqimaslik", "note": "hujjatda yo'q narsani to'qimasligi kerak"},
+  {"id": 12, "question": "Mehnat shartnomasi necha oy sinov muddati beradi?", "expected_tool": "search_policy", "expected_answer_contains": "3 oy"},
+  {"id": 13, "question": "/reset", "expected_behavior": "xotira_tozalash"},
+  {"id": 14, "question": "Ta'til so'rovimni bekor qilaman", "expected_behavior": "tasdiqlash_bekor"},
+  {"id": 15, "question": "Kechikish bo'yicha qoida qanday?", "expected_tool": "search_policy", "expected_answer_contains": "15 daqiqa"}
+]

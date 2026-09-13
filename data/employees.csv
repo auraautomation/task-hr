@@ -1,0 +1,61 @@
+employee_id,full_name,department,position,start_date,leave_balance,phone
+1,Sherzod Tosheva,HR,HR menejer,2020-04-05,23,+998902719583
+2,Aida Karimova,Sotuv,Katta sotuvchi,2019-01-03,6,+998904903402
+3,Bobur Tojiboyeva,HR,HR mutaxassis,2024-11-23,17,+998908038374
+4,Rustam Ochilov,IT,Frontend dasturchi,2025-01-25,5,+998908090293
+5,Nigora Saidov,Moliya,Moliyachi,2025-06-04,2,+998907374122
+6,Bekzod Nasrullaeva,Ta'minot,Xarid mutaxassisi,2025-01-24,14,+998909996414
+7,Shahnoza Aliyev,Sotuv,Katta sotuvchi,2025-11-20,11,+998904226067
+8,Iroda Rahimov,HR,HR mutaxassis,2025-05-03,7,+998902694522
+9,Doston Saidov,Yuridik,Yurist,2020-06-12,6,+998905479144
+10,Mirjalol Rahimov,IT,Backend dasturchi,2023-12-08,5,+998908755439
+11,Doston Saidov,Analitika,Biznes analitik,2024-06-27,24,+998901938483
+12,Rustam Yusupova,Ta'minot,Xarid mutaxassisi,2021-02-07,18,+998906279418
+13,Madina Mirzaeva,Data,Data analitik,2020-05-05,7,+998905408072
+14,Charos G'ulomov,Data,Data analitik,2021-04-05,16,+998909279821
+15,Nilufar Yusupova,Sotuv,Sotuv menejeri,2024-03-26,21,+998908082668
+16,Umid Rahimov,Data,Data analitik,2023-08-17,8,+998901192619
+17,Aida Tosheva,Analitika,Biznes analitik,2025-11-11,3,+998905924115
+18,Ozoda Ismoilova,Yuridik,Yurist,2024-12-09,16,+998903997281
+19,Bobur Tosheva,Xavfsizlik,Xavfsizlik muhandisi,2020-06-25,5,+998909897858
+20,Sardor Tojiboyeva,Ta'minot,Xarid mutaxassisi,2019-02-12,9,+998905017343
+21,Malika Yoqubova,IT,Backend dasturchi,2019-12-16,2,+998909937326
+22,Kamila Nazarov,Moliya,Buxgalter,2023-03-09,16,+998908099076
+23,Madina Karimova,Marketing,Marketolog,2022-11-21,11,+998908350099
+24,Mohira Ochilov,Sotuv,Sotuv menejeri,2020-02-11,0,+998904860684
+25,Gulbahor Yoqubova,HR,HR mutaxassis,2024-11-02,7,+998902130789
+26,Aziz Xolmatov,Sotuv,Sotuv menejeri,2021-11-16,6,+998903219824
+27,Sirojiddin G'ulomov,IT,Frontend dasturchi,2020-08-26,13,+998904194548
+28,Bekzod Tosheva,Data,Data analitik,2022-07-15,23,+998901908841
+29,Aida Tosheva,HR,HR menejer,2024-06-26,3,+998905171761
+30,Sanjar Qodirov,Analitika,Biznes analitik,2020-07-06,8,+998908761611
+31,Feruza Rahimov,Yuridik,Yurist,2019-11-18,0,+998902564689
+32,Odiljon Yoqubova,Moliya,Buxgalter,2022-08-07,12,+998901983738
+33,Otabek Aliyev,HR,HR menejer,2021-08-10,13,+998909164991
+34,Gulnora Qodirov,Xavfsizlik,Xavfsizlik muhandisi,2019-10-24,17,+998902022698
+35,Charos Xolmatov,HR,HR mutaxassis,2023-08-17,16,+998903641282
+36,Malika Yusupov,Sotuv,Sotuv menejeri,2019-10-03,21,+998904946066
+37,Muxlisa Tosheva,IT,Backend dasturchi,2023-10-02,19,+998902375453
+38,Elyor G'ulomov,IT,Frontend dasturchi,2021-04-22,22,+998906271130
+39,Feruza Saidov,Data,Data analitik,2024-11-10,14,+998906304573
+40,Odiljon Rahimov,HR,HR menejer,2023-10-04,2,+998904576135
+41,Bobur Saidov,Moliya,Buxgalter,2019-04-12,9,+998903646552
+42,Farhod Karimova,Xavfsizlik,Xavfsizlik muhandisi,2024-09-10,21,+998902737893
+43,Farrux Saidov,Sotuv,Sotuv menejeri,2024-09-05,8,+998905727085
+44,Umid Qodirov,Ta'minot,Xarid mutaxassisi,2024-11-28,8,+998909479356
+45,Laylo Saidov,HR,HR mutaxassis,2024-07-27,8,+998901739653
+46,Sardor Xolmatov,Moliya,Buxgalter,2020-12-15,17,+998908175395
+47,Nodira Karimov,Sotuv,Sotuv menejeri,2024-03-18,1,+998907194416
+48,Gulbahor Karimova,Moliya,Buxgalter,2020-01-10,11,+998901669324
+49,Bahodir Qodirov,Marketing,SMM mutaxassis,2021-09-28,13,+998903592974
+50,Feruza Ismoilova,Moliya,Buxgalter,2019-03-24,10,+998907907400
+51,Javohir Yoqubova,Xavfsizlik,Xavfsizlik muhandisi,2025-12-04,12,+998901649691
+52,Anvar Yoqubova,Marketing,Marketolog,2021-05-27,7,+998904740036
+53,Dilnoza Qodirov,Data,Data analitik,2021-02-25,8,+998906891254
+54,Zulfiya Yusupov,Data,Data analitik,2019-02-09,5,+998905453786
+55,Aziz Tosheva,IT,Frontend dasturchi,2021-12-26,10,+998908321474
+56,Jasur Abdullayev,IT,DevOps muhandisi,2022-03-15,15,+998901234567
+57,Dilshoda Mamurova,Marketing,Kontent menejer,2023-07-01,9,+998903456789
+58,Tohir Usmonov,Yuridik,Katta yurist,2019-08-20,20,+998905678901
+59,Nargiza Rahmonova,Analitika,Ma'lumot tahlilchisi,2024-01-10,12,+998907890123
+60,Shamsiddin Normatov,Ta'minot,Logistika menejeri,2020-11-03,18,+998909012345

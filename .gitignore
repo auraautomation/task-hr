@@ -1,0 +1,7 @@
+.env
+data/hr_agent.db
+eval/results.json
+__pycache__/
+*.pyc
+.venv/
+venv/
